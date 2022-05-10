@@ -1,3 +1,3 @@
 # xueranzhonglou
-个人用血染钟楼辅助工具\<br>  
+个人用血染钟楼辅助工具\
 源代码地址：https://github.com/bra1n/townsquare
