@@ -142,6 +142,8 @@ export default {
               property: "role",
               value
             });
+            console.log(player.name + "你是" + player.role.name + ",属于" + player.role.team);
+            console.log("你的能力是：" + player.role.ability);
           }
         });
         this.$store.commit("toggleModal", "roles");
