@@ -111,6 +111,13 @@
                 :icon="['fas', grimoire.isMuted ? 'volume-mute' : 'volume-up']"
             /></em>
           </li>
+          <li @click="toggleMuted" v-if="!session.isSpectator">
+            Show Information
+            <em
+              ><font-awesome-icon
+                :icon="['fas', grimoire.isMuted ? 'volume-mute' : 'volume-up']"
+            /></em>
+          </li>
         </template>
 
         <template v-if="tab === 'session'">
